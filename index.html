@@ -1,31 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <link rel="icon" type="image/x-icon" href="favicon/valo.favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health and wellness</title>
+    <title>Juniors</title>
     <style>
-        .allineacentro {
+        .allineacentro
+        {
             text-align: center;
         }
 
-        .allineasinistra {
+        .allineasinistra
+        {
             text-align: left;
         }
 
-        .collegamenti {
-            display: flex;
-            flex-direction: column;
-            margin-left: 20px;
+        .collegamenti
+        { 
+            display: flex; 
+            flex-direction: column; 
+            margin-left: 20px; 
         }
 
-        .arrotonda-angoli {
+        .arrotonda-angoli 
+        { 
             border-radius: 15px;
         }
 
         /* Reset di default */
-        * {
+        {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -36,18 +39,19 @@
             font-family: bahnschrift;
             line-height: 1.6;
             background-color: rgb(11, 85, 0);
-            font-size: 16px; /* Manteniamo la dimensione base del testo */
         }
 
         /* Layout contenitore */
-        .container {
+        .container 
+        {
             display: flex;
             flex-direction: column;
             height: 100vh;
         }
 
         /* Intestazione */
-        header {
+        header 
+        {
             background-color: rgb(2, 194, 25);
             color: black;
             text-align: center;
@@ -55,7 +59,8 @@
         }
 
         /* Footer */
-        footer {
+        footer 
+        {
             background-color: rgb(2, 194, 25);
             color: black;
             text-align: center;
@@ -63,64 +68,47 @@
             margin-top: auto;
         }
 
-        /* Layout principale (mobile) */
-        .main {
+        /* Layout principale (2 colonne) */
+        .main 
+        {
             display: flex;
-            flex-direction: column;
             flex: 1;
         }
 
-        /* Colonna laterale del menu (mobile) */
-        .sidebar {
-            width: 100%;
+        /* Colonna laterale del menu */
+        .sidebar 
+        {
+            width: 250px;
             background-color: #43a6a6;
             color: black;
             padding: 1rem;
         }
 
-        /* Corpo centrale (mobile) */
-        .content {
-            flex: 1;
-            padding: 2rem;
-            background-color: white;
-        }
-
-        /* Stili per il menu laterale */
-        .sidebar ul {
-            list-style-type: none;
-        }
-
-        .sidebar a {
+        .sidebar a 
+        {
             color: black;
             text-decoration: none;
             display: block;
             padding: 0.5rem 0;
         }
 
-        .sidebar a:hover {
+        .sidebar a:hover 
+        {
             background-color: #4cbaba;
         }
 
-        /* Immagini flessibili */
-        img {
-            max-width: 100%;
-            height: auto;
+        /* Corpo centrale */
+        .content 
+        {
+            flex: 1;
+            padding: 2rem;
+            background-color: white;
         }
 
-        /* Layout principale (tablet e desktop) */
-        @media (min-width: 768px) {
-            .main {
-                flex-direction: row;
-            }
-
-            .sidebar {
-                width: 20%;
-            }
-
-            .content {
-                flex: 1;
-                padding: 2rem;
-            }
+        /* Stili per il menu laterale */
+        .sidebar ul 
+        {
+            list-style-type: none;
         }
     </style>
 </head>
@@ -129,7 +117,7 @@
 <div class="container">
     <!-- Intestazione -->
     <header>
-        <h1>HEALTH AND WELLNESS</h1>
+        <h1>Who we are and why are we doing this?</h1>
     </header>
 
     <!-- Contenuto principale -->
@@ -149,20 +137,17 @@
         <!-- Corpo centrale -->
         <div class="content">
             <br>
-            <h2>Who are we? Why are we doing this?</h2>
-            <br>
-            <p>Welcome to our health and wellness company, where our main commitment is to improve the quality of life for people of all ages. We are a team of skilled 
-                and passionate professionals dedicated to providing personalized fitness programs that meet the unique needs of each individual.</p>
-            <br>
-            <p>We firmly believe that physical and mental well-being is essential for living a happy and fulfilling life. Our mission is to help people achieve their 
-                health goals through effective, safe, and sustainable programs. We want to inspire and motivate every individual to take care of their body and mind, 
-                promoting an active and healthy lifestyle.</p> 
+            <p>Welcome to our health and wellness company, where our main commitment is to improve the quality of life for people of 
+                all ages. We are a team of skilled and passionate professionals dedicated to providing personalized fitness programs 
+                that meet the unique needs of each individual.</p>
+            <p>We firmly believe that physical and mental well-being is essential for living a happy and fulfilling life. Our mission 
+                is to help people achieve their health goals through effective, safe, and sustainable programs. We want to inspire and 
+                motivate every individual to take care of their body and mind, promoting an active and healthy lifestyle.</p> 
         </div>
         
         <div class="content">
             <br>
-            <br>
-            <img src="1.jpg" class="arrotonda-angoli">
+            <img src="1.jpg" height="88%" width="100%" class="arrotonda-angoli">
         </div>
     </div>
 
