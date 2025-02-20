@@ -1,0 +1,162 @@
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon/valo.favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elderly</title>
+    <style>
+        .allineacentro
+        {
+            text-align: center;
+        }
+
+        .allineasinistra
+        {
+            text-align: left;
+        }
+
+        .collegamenti
+        { 
+            display: flex; 
+            flex-direction: column; 
+            margin-left: 20px; 
+        }
+
+        .arrotonda-angoli 
+        { 
+            border-radius: 15px;
+        }
+
+        /* Reset di default */
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Stili generali */
+        body {
+            font-family: bahnschrift;
+            line-height: 1.6;
+            background-color: rgb(11, 85, 0);
+        }
+
+        /* Layout contenitore */
+        .container 
+        {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Intestazione */
+        header 
+        {
+            background-color: rgb(2, 194, 25);
+            color: black;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Footer */
+        footer 
+        {
+            background-color: rgb(2, 194, 25);
+            color: black;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+
+        /* Layout principale (2 colonne) */
+        .main 
+        {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Colonna laterale del menu */
+        .sidebar 
+        {
+            width: 250px;
+            background-color: #43a6a6;
+            color: black;
+            padding: 1rem;
+        }
+
+        .sidebar a 
+        {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 0;
+        }
+
+        .sidebar a:hover 
+        {
+            background-color: #4cbaba;
+        }
+
+        /* Corpo centrale */
+        .content 
+        {
+            flex: 1;
+            padding: 2rem;
+            background-color: white;
+        }
+
+        /* Stili per il menu laterale */
+        .sidebar ul 
+        {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Intestazione -->
+    <header>
+        <h1>Plan for elderly</h1>
+    </header>
+
+    <!-- Contenuto principale -->
+    <div class="main">
+        <!-- Colonna laterale (Menu) -->
+        <aside class="sidebar">
+            <h2>Other information</h2>
+            <ul>
+                <li><a href="Apollo.html">Home</a></li>
+                <li><a href="juniors.html">Juniors</a></li>
+                <li><a href="#">Teens</a></li>
+                <li><a href="adults.html">Adults</a></li>
+                <li><a href="elderly.html">Elderly</a></li>
+            </ul>
+        </aside>
+        
+        <!-- Corpo centrale -->
+        <div class="content">
+            <br>
+            <p>Diet: Adolescents should follow a balanced diet that includes fruits and vegetables, lean proteins (chicken, fish, tofu, legumes), whole grains, and 
+                dairy products. They should avoid excessive consumption of fast food and sugary beverages. It's crucial to ensure they get enough calcium and iron, 
+                essential for growth and development.</p>
+            <p>Physical Activity: Teens should engage in at least 60 minutes of physical activity each day. Recommended activities include jogging, swimming, dancing, 
+                team sports like soccer and basketball, and outdoor activities like hiking and climbing.</p> 
+            <p>Gym: Teens can benefit from gym workouts, provided they are supervised by a qualified instructor. They can do light weightlifting, participate in fitness 
+                classes, and use gym machines to improve strength and endurance.</p>
+        </div>
+        
+        <div class="content">
+            <br>
+            <img src="img/5.jpeg" height="88%" width="100%" class="arrotonda-angoli">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 web site Apollo school (HEALTH AND WELLNESS)</p>
+    </footer>
+</div>
+
+</body>
+</html>

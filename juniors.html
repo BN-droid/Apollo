@@ -1,0 +1,161 @@
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon/valo.favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juniors</title>
+    <style>
+        .allineacentro
+        {
+            text-align: center;
+        }
+
+        .allineasinistra
+        {
+            text-align: left;
+        }
+
+        .collegamenti
+        { 
+            display: flex; 
+            flex-direction: column; 
+            margin-left: 20px; 
+        }
+
+        .arrotonda-angoli 
+        { 
+            border-radius: 15px;
+        }
+
+        /* Reset di default */
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Stili generali */
+        body {
+            font-family: bahnschrift;
+            line-height: 1.6;
+            background-color: rgb(11, 85, 0);
+        }
+
+        /* Layout contenitore */
+        .container 
+        {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Intestazione */
+        header 
+        {
+            background-color: rgb(2, 194, 25);
+            color: black;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Footer */
+        footer 
+        {
+            background-color: rgb(2, 194, 25);
+            color: black;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+        }
+
+        /* Layout principale (2 colonne) */
+        .main 
+        {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Colonna laterale del menu */
+        .sidebar 
+        {
+            width: 250px;
+            background-color: #43a6a6;
+            color: black;
+            padding: 1rem;
+        }
+
+        .sidebar a 
+        {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 0.5rem 0;
+        }
+
+        .sidebar a:hover 
+        {
+            background-color: #4cbaba;
+        }
+
+        /* Corpo centrale */
+        .content 
+        {
+            flex: 1;
+            padding: 2rem;
+            background-color: white;
+        }
+
+        /* Stili per il menu laterale */
+        .sidebar ul 
+        {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Intestazione -->
+    <header>
+        <h1>Plan for juniors</h1>
+    </header>
+
+    <!-- Contenuto principale -->
+    <div class="main">
+        <!-- Colonna laterale (Menu) -->
+        <aside class="sidebar">
+            <h2>Other information</h2>
+            <ul>
+                <li><a href="Apollo.html">Home</a></li>
+                <li><a href="#">Juniors</a></li>
+                <li><a href="teens.html">Teens</a></li>
+                <li><a href="adults.html">Adults</a></li>
+                <li><a href="elderly.html">Elderly</a></li>
+            </ul>
+        </aside>
+        
+        <!-- Corpo centrale -->
+        <div class="content">
+            <br>
+            <p>Diet: Children should have a balanced diet that includes plenty of fresh fruits and vegetables, lean proteins (such as chicken, fish, eggs, and legumes), 
+                whole grains, and dairy products. It's important to limit the consumption of foods high in sugars and saturated fats, such as packaged snacks and sugary 
+                drinks.</p>
+            <p>Physical Activity: Children should engage in at least 60 minutes of moderate-to-vigorous physical activity each day. Recommended activities include 
+                outdoor play like running and jumping, cycling, swimming, gymnastics classes, and team sports like soccer, basketball, and volleyball.</p> 
+            <p>Gym: For young children, the gym is not necessary. Focus on playful activities and active games that promote motor skills development and socialization.</p>
+        </div>
+        
+        <div class="content">
+            <br>
+            <img src="img/2.jpg" height="88%" width="100%" class="arrotonda-angoli">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 web site Apollo school (HEALTH AND WELLNESS)</p>
+    </footer>
+</div>
+
+</body>
+</html>
